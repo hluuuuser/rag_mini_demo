@@ -23,8 +23,8 @@ DEEPSEEK_BASE_URL = "https://api.deepseek.com"
 LLM_MODEL = os.getenv("LLM_MODEL", "")
 
 # PDF CONFIG
-MAX_CHUNK = os.getenv("MAX_CHUNK", 200)
-OVERLAP = os.getenv("OVERLAP", 20)
+MAX_CHUNK = int(os.getenv("MAX_CHUNK", 200))
+OVERLAP = int(os.getenv("OVERLAP", 20))
 
 #
-TOPK = os.getenv("TOPK", 3)
+TOPK = int(os.getenv("TOPK", 3))
