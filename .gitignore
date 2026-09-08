@@ -1,0 +1,18 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+
+# 密钥与环境配置 —— 绝不提交
+backend/.env
+
+# 本地运行时数据(全部可重新生成)
+data/
+backend/dataset/
+
+# 前端依赖与构建产物
+frontend/node_modules/
+frontend/dist/
+
+# IDE 杂项
+.idea/
+.vscode/
